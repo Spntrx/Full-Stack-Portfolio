@@ -45,3 +45,13 @@ The server loads `server/.env` when present and also accepts environment variabl
 npm run build --prefix client
 npm run lint --prefix client
 ```
+
+## Live Cloud Deployment
+- **Frontend (Render Static Site):** [https://avi-portfolio-client.onrender.com](https://avi-portfolio-client.onrender.com)
+- **Backend API (Render Web Service):** [https://avi-portfolio-api.onrender.com](https://avi-portfolio-api.onrender.com)
+- **Database:** MongoDB Atlas (`Portfolio` cluster)
+
+## Performance & Accessibility Optimization
+- **Before Optimization (Lighthouse Desktop):** Performance `100` | Accessibility `95` | Best Practices `100` | SEO `100`
+- **Optimization Applied:** Darkened the `--coral` CSS custom property in `client/src/index.css` from `#d96a47` to `#a84122` to satisfy WCAG AA color contrast ratios (`>= 4.5:1`) for active navigation links and status labels.
+- **After Optimization (Lighthouse Desktop):** Performance `99` | Accessibility `100` | Best Practices `100` | SEO `100`

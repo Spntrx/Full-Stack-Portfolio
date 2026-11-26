@@ -413,7 +413,7 @@ function App() {
         return (
           <section className="home-page" aria-labelledby="page-title">
             <div className="home-copy">
-              <p className="eyebrow"><span className="availability-dot" /> Available for new ideas</p>
+              <p className="eyebrow"><span className="availability-dot" /> Open to full-stack & AI software roles</p>
               <h1 id="page-title">Designing for<br />the <em>in-between.</em></h1>
               <p className="home-intro">Hello, I’m Avi: a developer who brings thoughtful design and useful technology together.</p>
               <div className="home-actions"><a className="button button-dark" href="#about">A little about me <span aria-hidden="true">↗</span></a><a className="quiet-link" href="#projects">Explore my work</a></div>
